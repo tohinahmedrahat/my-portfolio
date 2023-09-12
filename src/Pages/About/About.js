@@ -68,9 +68,9 @@ const About = () => {
                     </div>
                     <h5 className='uppercase text-sm mt-7'>stay with me</h5>
                     <h4 className='text-2xl text-white'>Profile</h4>
-                    <button className='absolute bottom-10 right-5'><a href="#">
+                    <button className='absolute bottom-10 right-5'><Link to="/">
                         <img className='custom-img' src={img2} alt="" />
-                    </a></button>
+                    </Link></button>
                 </div>
                 <div data-aos="zoom-out-down"
                     data-aos-offset="300"
