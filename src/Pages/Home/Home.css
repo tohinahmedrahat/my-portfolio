@@ -3,7 +3,7 @@
     transition: all ease-in-out .3s;
 }
 .profile-img{
-    width: 224px;
+    
     height: 224px;
     position: relative;
     overflow: hidden;

@@ -3,7 +3,7 @@
     transition: all ease-in-out .3s;
 }
 .pro-img{
-    width: 322px;
+    
     position: relative;
     overflow: hidden;
     background: linear-gradient(90deg, #FD9797 -15%, #FE3232 58%, #FE4B4B 97%);

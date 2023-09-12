@@ -27,27 +27,27 @@ const Home = () => {
     }, []);
     return (
         <>
-            <div className='grid grid-cols-2 gap-10 justify-between w-11/12 mx-auto'>
-                <div className='flex justify-between px-5 py-10 bg-[#171717] rounded-3xl'>
-                    <div className='profile-img'>
+            <div className='md:grid grid-cols-2 gap-10 justify-between w-11/12 mx-auto'>
+                <div className='md:flex justify-between px-5 py-10 bg-[#171717] rounded-3xl'>
+                    <div className='profile-img sm:w-full md:w-[224px]'>
                         <img src={img} alt="" />
                     </div>
                     <div data-aos="fade-left"
                         data-aos-offset="300"
-                        data-aos-easing="ease-in-sine" className='ml-8 relative'>
-                        <h4 className='text-[#7A7A7A] uppercase font-semibold'>web developer</h4>
+                        data-aos-easing="ease-in-sine" className='md:ml-8 relative'>
+                        <h4 className='text-[#7A7A7A] uppercase font-semibold mt-3 md:mt-0'>web developer</h4>
                         <h2 className='text-5xl font-semibold my-3 text-[#FFFFFF]'>Tohin Ahmed</h2>
                         <h6 className='uppercase text-base'>i am mren stack web developer based in bangladesh</h6>
-                        <button className='absolute bottom-0 right-5'><Link to="about">
+                        <button className='absolute md:bottom-0 md:right-5 bottom-[-26px] right-3'><Link to="about">
                             <img className='custom-img' src={img2} alt="" />
                         </Link></button>
                     </div>
                 </div>
                 <div>
-                    <div className='rounded-3xl w-full bg-[#0F0F0F]'>
+                    <div className='rounded-3xl w-full mt-3 md:mt-0 bg-[#0F0F0F]'>
                         <h4 className='capitalize py-3 px-5 text-2xl'>i am a profosonal <span ref={el} /> </h4>
                     </div>
-                    <div className='flex mt-10 justify-center items-center gap-10'>
+                    <div className='md:flex mt-10 justify-center items-center gap-10'>
                         <div data-aos="fade-right"
                             data-aos-anchor="#example-anchor"
                             data-aos-offset="500"
@@ -62,7 +62,7 @@ const Home = () => {
                         <div data-aos="fade-left"
                             data-aos-anchor="#example-anchor"
                             data-aos-offset="500"
-                            className='bg-[#1E1E1E] relative p-10 rounded-3xl'>
+                            className='bg-[#1E1E1E] relative p-10 rounded-3xl mt-3 md:mt-0'>
                             <img src={work} alt="" />
                             <h5 className='uppercase text-sm mt-3'>showcase</h5>
                             <h4 className='text-2xl text-white'>Projects</h4>
