@@ -1,0 +1,27 @@
+[
+    {   "id" : 1,
+        "name" : "Hicksville Office",
+        "category" : "tour-site",
+        "img" : "https://i.ibb.co/MpJWmzs/tour-site.png",
+        "Hours": [
+            "html","css","react","javascript","tailwind","daisyui","react-router","aos-animation"
+        ]         
+    },
+    {   "id" : 2,
+        "name" : "Queens office",
+        "category" : "e-commerce",
+        "img" : "https://i.ibb.co/FqSrLj2/bike-site.png",
+        "Hours": [
+            "html","css","react","javascript","tailwind","daisyui","react-router","aos-animation"
+        ]         
+    },
+    {   "id" : 3,
+        "name" : "Bronx Office",
+        "category" : "learning",
+        "img" : "https://i.ibb.co/4P3sG56/learning-site.png",
+        "Hours": [
+            "html","css","react","javascript","tailwind","daisyui","react-router","aos-animation"
+        ]         
+    }
+
+]

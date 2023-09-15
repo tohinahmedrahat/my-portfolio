@@ -6,7 +6,7 @@ import { IoLocation, IoCallOutline } from 'react-icons/io5';
 const Contact = () => {
     return (
         <div className='w-11/12 mx-auto md:grid grid-cols-3 gap-10 mt-10 mb-16'>
-            <div className='col-span-1'>
+            <div className='col-span-1 bg-[#191919] pl-8 py-14 rounded-3xl'>
                 <h4 className='text-white font-medium text-xl'>CONTACT INFO</h4>
                 <div data-aos="fade-right"
                     data-aos-offset="300"
