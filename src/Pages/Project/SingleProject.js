@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 
 const SingleProject = () => {
-
+   
+        
     return (
         <div className='bg-[#1E1E1E]'>
             <div className='w-11/12 mx-auto py-10'>

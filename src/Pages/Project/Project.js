@@ -1,15 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import img2 from '../../img/icon.svg'
 import { Link } from 'react-router-dom';
+import LoadData from '../Sheard/LoadData';
 
 const Project = () => {
-   const [project,setProject] = useState([])
-    useEffect(() => {
-        fetch('fake.json')
-        .then(data => data.json())
-        .then(res => setProject(res))
-    },[])
-    console.log(project)
+   const project = LoadData()
+    
     return (
         <div className='w-11/12 mx-auto mt-10'>
             <h2 className='uppercase text-6xl font-medium text-white mb-5 text-center'>All Project</h2>
@@ -23,7 +19,7 @@ const Project = () => {
                                 <img className='rounded-3xl w-full h-[280px]' src={data.img} alt="" />
                                 <h5 className='uppercase text-sm mt-3'>{data.name}</h5>
                                 <h4 className='text-2xl text-white'>{data.category}</h4>
-                                <button className='absolute bottom-6 right-5'><Link to={`/work/${data.id}`}>
+                                <button className='absolute bottom-6 right-5'><Link project={project} to={`/work/${data.id}`}>
                                     <img className='custom-img' src={img2} alt="" />
                                 </Link></button>
                             </div>
