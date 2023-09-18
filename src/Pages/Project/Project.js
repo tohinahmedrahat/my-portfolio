@@ -14,7 +14,7 @@ const Project = () => {
                     project.map((data, i) => {
                         return (
 
-                            <div key={i} className='bg-[#1E1E1E] relative p-4 pb-7 rounded-3xl md:w-[362px] h-[385px]'>
+                            <div key={i} className='bg-[#1E1E1E] relative p-4 pb-7 mb-3 md:mb-0 rounded-3xl md:w-[362px] h-[385px]'>
                                 
                                 <img className='rounded-3xl w-full h-[280px]' src={data.img} alt="" />
                                 <h5 className='uppercase text-sm mt-3'>{data.name}</h5>
