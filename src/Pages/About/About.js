@@ -19,7 +19,7 @@ const About = () => {
                 </div>
                 <div>
                     <h2 className='md:text-6xl text-2xl mt-2 md:mt-0 font-semibold text-center text-white'>SELF-SUMMARY</h2>
-                    <div className='bg-[#1A1A1A] pt-36 pr-40 relative p-8 mt-5 rounded-3xl'>
+                    <div className='bg-[#1A1A1A] pt-36 md:pr-40 relative p-8 mt-5 rounded-3xl'>
                         <img className='absolute top-0' src={icon} alt="" />
                         <h4 data-aos="fade-left"
                             data-aos-offset="300"

@@ -35,7 +35,7 @@ const SingleProject = () => {
                     </div>
                 </div>
                 <div className='my-10 md:grid grid-cols-2 gap-10'>
-                    <img src="https://i.ibb.co/Vw7CDDb/resale-1.png" alt="" />
+                    <img className='mb-3 md:mb-0' src="https://i.ibb.co/Vw7CDDb/resale-1.png" alt="" />
                     <img src="https://i.ibb.co/kqKvrY1/course-2.png" alt="" />
                 </div>
                 <div className='mt-10 pb-10 text-center'>
